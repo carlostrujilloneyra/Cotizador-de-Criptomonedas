@@ -46,7 +46,12 @@ export const App = () => {
         
         <div>
           {loading && <Spinner />}
-          {result.PRICE && (<Result result={result} />)}
+          {result.PRICE && (<Result {...result} />)}
+
+          {/* Otra forma:
+            {result.PRICE && (<Result result = {result} />)}
+          */}
+
         </div>
 
       </div>

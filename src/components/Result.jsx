@@ -1,9 +1,7 @@
 import { ContainerFlex } from "./styles/ContainerFlex";
 
-export const Result = ({ result }) => {
-
-	const { PRICE, HIGHDAY, LOWDAY, IMAGEURL, LASTUPDATE} = result;
-
+export const Result = ({ PRICE, HIGHDAY, LOWDAY, IMAGEURL, LASTUPDATE }) => {
+	
 	return (
 		<>
 			<div>
